@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Estate Masters Bootstrap Header</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .main-wrapper {
+      max-width: calc(100% - 300px); /* 150px on each side */
+      margin: 0 auto;
+    }
+    .header, .footer {
+      background-color: #440844;
+      color: white;
+      padding: 10px 0;
+    }
+    .footer {
+      background-color: #222;
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="main-wrapper">
+    <div class="row align-items-center justify-content-between">
+      
+      <!-- Logo -->
+      <div class="col-auto">
+        <img src="https://estatemastersgh.com/wp-content/uploads/2022/12/Estate-Masters-white-1.webp" alt="Estate Masters Logo" style="width: 150px; height: auto;">
+      </div>
+      
+      <!-- Navigation -->
+      <div class="col text-center">
+        <ul class="nav justify-content-center" style="gap: 15px;">
+          <li class="nav-item"><a href="index.html" class="nav-link text-white">Home</a></li>
+          <li class="nav-item"><a href="services.html" class="nav-link text-white">Our Services</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link text-white">About Us</a></li>
+          <li class="nav-item"><a href="team.html" class="nav-link text-white">Our Team</a></li>
+          <li class="nav-item"><a href="kasoa.html" class="nav-link text-white">Kasoa</a></li>
+          <li class="nav-item"><a href="f@q.html" class="nav-link text-white">FAQ</a></li>
+          <li class="nav-item"><a href="news.html" class="nav-link text-white">News</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link text-white">Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <!-- Button -->
+      <div class="col-auto">
+        <a href="#" class="btn btn-light" style="color: #440844; font-weight: bold;">Book A Visit</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- MAIN CONTENT -->
+<main>
+	<div class=" main-wrapper">
+<section class="container my-5">
+  <div class="row">
+    <div class="col-2"><!-- Empty left column --></div>
+    <div class="col-8">
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Where do you have your lands?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              We have two locations currently: the first site is located in the Ningo Prampram District, 15 minutes’ drive from the central university, and the second site is located at Tsopoli, adjacent to the Saglemi housing project, and close to the newly proposed airport city.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Do you have commercial plots?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Yes, we have land designated for business use. Warehouses, clinics, schools, stores, and sports fields are a few of these business endeavors.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              How long does it take to receive the documents after full payment?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              The indenture and certification plan take six weeks to complete.<br>
+              The barcoded site plan will be completed in 8 weeks.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Are your lands serviced?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Our lands are well serviced with internal roads and easy access to water and electricity.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              What happens when I default payment.
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              The outstanding balance will be subject to a 5% fee.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              Do you have a uniform architectural design for your client?
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Management will have to check and approve your architectural plan.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              Are your lands registered?
+            </button>
+          </h2>
+          <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Our lands are registered under the Lands Commission.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEight">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+              Is your land litigation free?
+            </button>
+          </h2>
+          <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Our lands are litigation-free.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingNine">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+              Do you demand a fee for digging?
+            </button>
+          </h2>
+          <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              No digging charges.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+              Who does the signing on your document?
+            </button>
+          </h2>
+          <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Estate Masters takes full charge of all document’s endorsements pertaining to any registration.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEleven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+              Do you pay any hidden fees after the purchase?
+            </button>
+          </h2>
+          <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              No, we don’t have any hidden fees.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwelve">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+              Is the land a waterlogged area?
+            </button>
+          </h2>
+          <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Our lands are devoid of waterlogged.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThirteen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+              Do you have a payment plan?
+            </button>
+          </h2>
+          <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Yes, we have three flexible payment plans that can help you become a landowner in less than twelve months.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFourteen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+              When can I visit the site?
+            </button>
+          </h2>
+          <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              We visit the site on <strong>Tuesdays</strong> and <strong>Fridays</strong> at 10 am for FREE, and on Saturdays at 9 am for a FEE of Ghc 50 only.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-2"><!-- Empty right column --></div>
+  </div>
+</section>
+
+	</div>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer py-4">
+  <div class="main-wrapper">
+    <div class="row align-items-center text-white">
+      
+      <!-- Logo -->
+      <div class="col-md-3 col-6 text-center text-md-start mb-3 mb-md-0">
+        <img src="https://estatemastersgh.com/wp-content/uploads/2022/12/Estate-Masters-white-1.webp" alt="Estate Masters Logo" style="max-width: 100%; height: auto;">
+      </div>
+
+      <!-- Spacer -->
+      <div class="col-md-3 d-none d-md-block"></div>
+
+      <!-- Language Selector -->
+      <div class="col-md-3 col-6 text-center mb-3 mb-md-0">
+        <select onchange="doGTranslate(this);" id="gtranslate_selector" style="padding: 5px; border-radius: 5px; width: 100%;">
+          <option value="">Select Language</option>
+          <option value="en|ar">Arabic</option>
+          <option value="en|zh-CN">Chinese (Simplified)</option>
+          <option value="en|nl">Dutch</option>
+          <option value="en|en">English</option>
+          <option value="en|fr">French</option>
+          <option value="en|de">German</option>
+          <option value="en|it">Italian</option>
+          <option value="en|pt">Portuguese</option>
+          <option value="en|ru">Russian</option>
+          <option value="en|es">Spanish</option>
+        </select>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="col-md-3 col-12 text-center text-md-end">
+        <a href="#" class="me-2 text-white"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="me-2 text-white"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="me-2 text-white"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <hr style="border-top: 1px solid #444; margin: 1rem 0;">
+
+    <div class="row text-white">
+      <div class="col-md-6 text-center text-md-start">
+        ©2024 Estate Masters Ltd. All Rights Reserved
+      </div>
+      <div class="col-md-6 text-center text-md-end">
+        <a href="#" style="color: #ccc; margin-right: 15px;">Terms & Conditions</a>
+        <a href="#" style="color: #ccc;">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

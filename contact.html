@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Estate Masters Bootstrap Header</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .main-wrapper {
+      max-width: calc(100% - 300px); /* 150px on each side */
+      margin: 0 auto;
+    }
+    .header, .footer {
+      background-color: #440844;
+      color: white;
+      padding: 10px 0;
+    }
+    .footer {
+      background-color: #222;
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="main-wrapper">
+    <div class="row align-items-center justify-content-between">
+      
+      <!-- Logo -->
+      <div class="col-auto">
+        <img src="https://estatemastersgh.com/wp-content/uploads/2022/12/Estate-Masters-white-1.webp" alt="Estate Masters Logo" style="width: 150px; height: auto;">
+      </div>
+      
+      <!-- Navigation -->
+      <div class="col text-center">
+        <ul class="nav justify-content-center" style="gap: 15px;">
+          <li class="nav-item"><a href="index.html" class="nav-link text-white">Home</a></li>
+          <li class="nav-item"><a href="services.html" class="nav-link text-white">Our Services</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link text-white">About Us</a></li>
+          <li class="nav-item"><a href="team.html" class="nav-link text-white">Our Team</a></li>
+          <li class="nav-item"><a href="kasoa.html" class="nav-link text-white">Kasoa</a></li>
+          <li class="nav-item"><a href="f@q.html" class="nav-link text-white">FAQ</a></li>
+          <li class="nav-item"><a href="news.html" class="nav-link text-white">News</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link text-white">Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <!-- Button -->
+      <div class="col-auto">
+        <a href="#" class="btn btn-light" style="color: #440844; font-weight: bold;">Book A Visit</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- MAIN CONTENT -->
+<main>
+	<div class=" main-wrapper">
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      <!-- Left Column -->
+      <div class="col-md-6 mb-4">
+        <h2 class="mb-3">Get In Touch</h2>
+        <p>For more information about Estate Masters Limited and our properties, kindly contact us and let’s have a chat</p>
+
+        <div class="row">
+          <div class="col-6 mb-3">
+            <h4>Address</h4>
+          </div>
+          <div class="col-6 mb-3">
+            <p>Community 25 Savannah Junction</p>
+          </div>
+          <div class="col-6 mb-3">
+            <h4>Email</h4>
+          </div>
+          <div class="col-6 mb-3">
+            <p>info@estatemastersgh.com</p>
+          </div>
+          <div class="col-6 mb-3">
+            <h4>Phone</h4>
+          </div>
+          <div class="col-6 mb-3">
+            <p>
+              +233 30397 5061<br>
+              +233 50030 4441<br>
+              +233 59388 4700
+            </p>
+          </div>
+          <div class="col-6 mb-3">
+            <h4>Opening Hours</h4>
+          </div>
+          <div class="col-6 mb-3">
+            <p>
+              Mon – Fri: 8 AM to 5 PM<br>
+              Saturday: Closed<br>
+              Sunday: Closed
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-md-6">
+        <div class="mb-4">
+          <iframe class="w-100" height="300" loading="lazy"
+            src="https://maps.google.com/maps?q=Community%2025%20Savannah%20Junction&t=m&z=10&output=embed&iwloc=near"
+            title="Community 25 Savannah Junction" aria-label="Community 25 Savannah Junction">
+          </iframe>
+        </div>
+        <hr>
+        <h3>Book your <strong class="text-success">Free</strong> site visit today!</h3>
+        <p>Fill out the form below and a sales rep will contact you shortly.</p>
+
+        <!-- Contact Form -->
+        <form>
+          <div class="row g-3">
+            <div class="col-md-4">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+            <div class="col-md-4">
+              <label for="phone" class="form-label">Phone</label>
+              <input type="tel" class="form-control" id="phone" placeholder="Phone">
+            </div>
+            <div class="col-md-4">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Email" required>
+            </div>
+            <div class="col-md-6">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" placeholder="Subject">
+            </div>
+            <div class="col-md-6">
+              <label for="company" class="form-label">Company</label>
+              <input type="text" class="form-control" id="company" placeholder="Company">
+            </div>
+            <div class="col-12">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Message"></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary w-100">Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+	</div>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer py-4">
+  <div class="main-wrapper">
+    <div class="row align-items-center text-white">
+      
+      <!-- Logo -->
+      <div class="col-md-3 col-6 text-center text-md-start mb-3 mb-md-0">
+        <img src="https://estatemastersgh.com/wp-content/uploads/2022/12/Estate-Masters-white-1.webp" alt="Estate Masters Logo" style="max-width: 100%; height: auto;">
+      </div>
+
+      <!-- Spacer -->
+      <div class="col-md-3 d-none d-md-block"></div>
+
+      <!-- Language Selector -->
+      <div class="col-md-3 col-6 text-center mb-3 mb-md-0">
+        <select onchange="doGTranslate(this);" id="gtranslate_selector" style="padding: 5px; border-radius: 5px; width: 100%;">
+          <option value="">Select Language</option>
+          <option value="en|ar">Arabic</option>
+          <option value="en|zh-CN">Chinese (Simplified)</option>
+          <option value="en|nl">Dutch</option>
+          <option value="en|en">English</option>
+          <option value="en|fr">French</option>
+          <option value="en|de">German</option>
+          <option value="en|it">Italian</option>
+          <option value="en|pt">Portuguese</option>
+          <option value="en|ru">Russian</option>
+          <option value="en|es">Spanish</option>
+        </select>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="col-md-3 col-12 text-center text-md-end">
+        <a href="#" class="me-2 text-white"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="me-2 text-white"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="me-2 text-white"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <hr style="border-top: 1px solid #444; margin: 1rem 0;">
+
+    <div class="row text-white">
+      <div class="col-md-6 text-center text-md-start">
+        ©2024 Estate Masters Ltd. All Rights Reserved
+      </div>
+      <div class="col-md-6 text-center text-md-end">
+        <a href="#" style="color: #ccc; margin-right: 15px;">Terms & Conditions</a>
+        <a href="#" style="color: #ccc;">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
