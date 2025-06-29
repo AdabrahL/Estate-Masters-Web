@@ -7,6 +7,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
+
+    
     body {
       margin: 0;
       padding: 0;
@@ -24,6 +26,11 @@
       background-color: #222;
     }
   </style>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </head>
 <body>
 
@@ -39,15 +46,27 @@
       
       <!-- Navigation -->
       <div class="col text-center">
-        <ul class="nav justify-content-center" style="gap: 15px;">
+        <ul class="nav justify-content-center" style="gap: 10px;">
           <li class="nav-item"><a href="index.html" class="nav-link text-white">Home</a></li>
           <li class="nav-item"><a href="services.html" class="nav-link text-white">Our Services</a></li>
           <li class="nav-item"><a href="about.html" class="nav-link text-white">About Us</a></li>
           <li class="nav-item"><a href="team.html" class="nav-link text-white">Our Team</a></li>
           <li class="nav-item"><a href="kasoa.html" class="nav-link text-white">Kasoa</a></li>
+          <li class="nav-item ">
+          <a class="nav-link dropdown-toggle text-white" href="sites.html">
+            Our Sites
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
           <li class="nav-item"><a href="f@q.html" class="nav-link text-white">FAQ</a></li>
           <li class="nav-item"><a href="news.html" class="nav-link text-white">News</a></li>
           <li class="nav-item"><a href="contact.html" class="nav-link text-white">Contact Us</a></li>
+         
         </ul>
       </div>
       
@@ -62,7 +81,7 @@
 <!-- MAIN CONTENT -->
  
 <!-- Static Background Section -->
-<div style="position:absolute; top: 70px; left: 0; width: 100%; height: 100vh; background: url('imgs/2024-real-estate-market-sentiment-survey-hero.jpg') no-repeat center center; background-size: cover; z-index: -1;filter: brightness(30%);">
+<div style="position:absolute; top: 70px; left: 0; width: 100%; height: 100vh; background: url('https://estatemastersgh.com/wp-content/uploads/2023/01/Estate-Masters-BG-hero-section.jpeg') no-repeat center center; background-size: cover; z-index: -1;filter: brightness(80%);">
 
 </div>
 
@@ -79,7 +98,7 @@
         Estate Masters Limited (formerly Kings City Real Estate) is a wholly Ghanaian-owned establishment that deals in affordable serviced plots, luxury homes, and property management.
       </p>
       <div class="d-flex gap-3 mt-4">
-        <a href="tel:+233593884695" class="btn btn-primary btn-lg animate__animated animate__fadeIn" style="animation-delay: 1.08s;">
+        <a href="" class="btn btn-primary btn-lg animate__animated animate__fadeIn" style="animation-delay: 1.08s;">
           <i class="fas fa-phone-alt me-2"></i>Call us
         </a>
         <a href="https://api.whatsapp.com/send?phone=233593884695" class="btn btn-success btn-lg">
@@ -90,7 +109,7 @@
 
     <!-- Right Column -->
     <div class="col-md-6 d-none d-md-block text-center">
-      <a href="https://www.youtube.com/embed/cb08EgVPDwU?autoplay=1"
+      <a href=""
          class="btn btn-outline-light btn-lg rounded-circle animate__animated animate__zoomIn"
          style="width: 80px; height: 80px; animation-delay: 0.18s;" data-bs-toggle="modal" data-bs-target="#videoModal">
         <i class="fas fa-play"></i>
@@ -134,6 +153,153 @@
     </div>
   </div>
 </section>
+
+<!--Yellow section-->
+ <div class="container py-5">
+    <div class="row">
+      
+      <!-- Left side with stats -->
+      <div class="col-md-8">
+        <div class="row">
+          <!-- Happy Customers -->
+          <div class="col-6" style="border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 30px 20px;">
+            <div class="d-flex align-items-center mb-2">
+              <span style="font-size: 2rem; color: #e0a826;">😊</span>
+              <span style="margin-left: 15px; font-size: 2.5rem; font-weight: bold; color: #e0a826;">3,500+</span>
+            </div>
+            <div style="color: #2f002f; font-size: 1.2rem; font-weight: 600;">Happy Customers</div>
+          </div>
+          <!-- Properties Sold -->
+          <div class="col-6" style="border-bottom: 1px solid #ccc; padding: 30px 20px;">
+            <div class="d-flex align-items-center mb-2">
+              <span style="font-size: 2rem; color: #e0a826;">🏠</span>
+              <span style="margin-left: 15px; font-size: 2.5rem; font-weight: bold; color: #e0a826;">3,500</span>
+            </div>
+            <div style="color: #2f002f; font-size: 1.2rem; font-weight: 600;">Properties Sold</div>
+          </div>
+          <!-- Project Completed -->
+          <div class="col-6" style="border-right: 1px solid #ccc; padding: 30px 20px;">
+            <div class="d-flex align-items-center mb-2">
+              <span style="font-size: 2rem; color: #e0a826;">✅</span>
+              <span style="margin-left: 15px; font-size: 2.5rem; font-weight: bold; color: #e0a826;">180+</span>
+            </div>
+            <div style="color: #2f002f; font-size: 1.2rem; font-weight: 600;">Project Completed</div>
+          </div>
+          <!-- Rep Support -->
+          <div class="col-6" style="padding: 30px 20px;">
+            <div class="d-flex align-items-center mb-2">
+              <span style="font-size: 2rem; color: #e0a826;">🎧</span>
+              <span style="margin-left: 15px; font-size: 2.5rem; font-weight: bold; color: #e0a826;">30</span>
+            </div>
+            <div style="color: #2f002f; font-size: 1.2rem; font-weight: 600;">Rep Support</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right side text -->
+      <div class="col-md-4" style="padding: 30px 20px;">
+        <h2 style="color: #2f002f; font-weight: bold;">Helping people buy<br>and sell properties</h2>
+        <p style="color: #502150; font-size: 1rem; margin-top: 15px;">
+          We service our lands by clearing any thickets (bushes), rubble, and stumps etc. that will inhibit construction.
+        </p>
+        <p style="color: #2f002f;"><span style="color: #e0a826;">✔️</span> <strong>Trusted Agent</strong></p>
+        <p style="color: #2f002f;"><span style="color: #e0a826;">✔️</span> <strong>24/7 Support</strong></p>
+        <p style="color: #2f002f;"><span style="color: #e0a826;">✔️</span> <strong>Top Listed Property</strong></p>
+      </div>
+
+    </div>
+  </div>
+
+
+<div class="container py-5" style="background-color: #ffffff; font-family: 'Segoe UI', sans-serif;">
+    <div class="row">
+      
+      <!-- Left Section (Text and Plot Sizes) -->
+      <div class="col-md-6" style="padding: 20px;">
+        <p style="color: #e0a826; font-weight: 600;">What We Offer</p>
+        <h2 style="color: #2f002f; font-weight: bold;">
+          Choose from our<br>variety of plot<br>sizes at Coastal<br>Park
+        </h2>
+
+        <div style="background-color: #fbe6ba; padding: 20px; margin-top: 20px;">
+          <p style="margin: 0; padding: 10px 0; border-bottom: 1px solid #d5ae6f;">
+            <span style="color: #e0a826;">✔️</span> 50 feet X 70 feet
+          </p>
+          <p style="margin: 0; padding: 10px 0; border-bottom: 1px solid #d5ae6f;">
+            <span style="color: #e0a826;">✔️</span> 70 feet X 70 feet
+          </p>
+          <p style="margin: 0; padding: 10px 0;">
+            <span style="color: #e0a826;">✔️</span> 100 feet X 100 feet
+          </p>
+        </div>
+
+        <p style="margin-top: 20px; font-size: 1rem;">
+          Starting Price: <span style="color: #2f002f; font-weight: bold; font-size: 1.5rem;">GHC 55,000</span>
+        </p>
+      </div>
+
+      <!-- Right Section (Images) -->
+      <div class="col-md-6">
+        <div class="row g-3">
+          <div class="col-6">
+            <img src="https://estatemastersgh.com/wp-content/uploads/elementor/thumbs/F-qwlrh0t009io1i381ot01flm08gcporkrli9cbdzco.jpg" alt="Land Image 1" class="img-fluid">
+          </div>
+          <div class="col-6">
+            <img src="https://estatemastersgh.com/wp-content/uploads/elementor/thumbs/F-qwlrh0t009io1i381ot01flm08gcporkrli9cbdzco.jpg" alt="Poster" class="img-fluid">
+          </div>
+          <div class="col-12">
+            <img src="https://estatemastersgh.com/wp-content/uploads/elementor/thumbs/F-qwlrh0t009io1i381ot01flm08gcporkrli9cbdzco.jpg" alt="Land Image 2" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<!--Carossel-->
+
+  <div class="container my-5">
+  <div id="multiImageCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="d-flex justify-content-between">
+          <img src="https://estatemastersgh.com/wp-content/uploads/elementor/thumbs/F-qwlrh0t1u1os0qur1scx3stn738szq7j4h62n3wlb2.jpg" alt="1" style="width: 24%; height: 100px; object-fit: cover;">
+          <img src="https://estatemastersgh.com/wp-content/uploads/elementor/thumbs/A-qwlrfsmmwu0av2mx7r9gclyz9zajxyc5aei933q3fi.jpg" alt="2" style="width: 24%; height: 100px; object-fit: cover;">
+          <img src="https://estatemastersgh.com/wp-content/uploads/elementor/thumbs/B-qwlrfvg5hc45twitrahc239d24wnl1ncasgpixlwwu.jpg" alt="3" style="width: 24%; height: 100px; object-fit: cover;">
+          <img src="https://estatemastersgh.com/wp-content/uploads/elementor/thumbs/C-qwlrfz7i8o9b4cdd5c3uc2b7foe4fu29nb2ng1gc7y.jpg" alt="4" style="width: 24%; height: 100px; object-fit: cover;">
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="d-flex justify-content-between">
+          <img src="https://estatemastersgh.com/wp-content/uploads/elementor/thumbs/D-qwlrg9jqbungo1ycgykqlhp9ywz5si7bcq8zq310bi.jpg" alt="5" style="width: 24%; height: 100px; object-fit: cover;">
+          <img src="https://estatemastersgh.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2023-01-18-at-10.54.20-AM-1-q1pd8lwoyxsfbuunnwvoeaktn5mzqlf2c4wdw43oim.jpeg" alt="6" style="width: 24%; height: 100px; object-fit: cover;">
+          <img src="https://estatemastersgh.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2023-01-18-at-10.54.21-AM-q1pd8muj5rtpngtaifaaysca8jicyaiso9jvde2ace.jpeg" alt="7" style="width: 24%; height: 100px; object-fit: cover;">
+          <img src="https://estatemastersgh.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2023-01-18-at-10.54.21-AM-1-q1pd8oq7jfwaaoqk7g3k3rv7fb93doq9ciuubxzhzy.jpeg" alt="8" style="width: 24%; height: 100px; object-fit: cover;">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#multiImageCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #ffc107; border-radius: 50%;"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#multiImageCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #ffc107; border-radius: 50%;"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<div style="position:absolute; top: 70px; left: 0; width: 100%; height: 100vh; background: url('https://estatemastersgh.com/wp-content/uploads/2023/01/Estate-Masters-BG-hero-section.jpeg') no-repeat center center; background-size: cover; z-index: -1;filter: brightness(80%);">
+
+</div>
 
 
 <!-- FOOTER -->
@@ -188,6 +354,8 @@
     </div>
   </div>
 </footer>
-
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
